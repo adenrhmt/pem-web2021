@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Latihan Html Multimedia</title>
+    </head>
+    <body>
+        <a href="https://github.com/Andip123/pem-web2021"><h3 class="text-center text-success mt-3">HTML Video</h3></a>
+        <video width="500" height="400" controls autoplay="true">
+        <source src="lv.123.mp4" type="video/mp4">
+        </video>
+        <a href="https://github.com/Andip123/pem-web2021"><h3 class="text-center text-success mt-3">HTML Youtube</h3></a>
+    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g2Oayj6VJfA" title="YouTube video player" allowfullscreen>
+    </iframe>
+    </body>
+    </html>
