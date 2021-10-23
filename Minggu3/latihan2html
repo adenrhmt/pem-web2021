@@ -147,8 +147,16 @@ background-color: #ffffff;
 </body>
 </html>
 
-<video width="320" height="240"
-controls>
-<source src="lv.123.mp4"
+<body>
+<a href="https://github.com/Andip123/pem-web2021"><h3 class="text-center text-success mt-3">HTML Video</h3></a>
+
+<video width="500" height="400" controls>
+<source src="lv.123.mp4" type="video/mp4">
 </video>
+
+<a href="https://github.com/Andip123/pem-web2021"><h3 class="text-center text-success mt-3">HTML Youtube</h3></a>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g2Oayj6VJfA" title="YouTube video player" allowfullscreen>
+</iframe>
+</body>
 </html>
