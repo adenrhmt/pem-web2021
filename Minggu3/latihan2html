@@ -1,0 +1,154 @@
+<html>
+<head>
+<title>BIODATA DIRI</title>
+</head>
+<body>
+<h1 align="center">BIODATA DIRI</h1>
+<table width="745" border="1" cellspacing="0" cellpadding="5" align="center">
+<tr align="center" bgcolor="#66CC33">
+<td width="174">DATA DIRI</td>
+<td width="353">KETERANGAN</td>
+<td width="232">FOTO</td>
+</tr>
+<tr>
+<td>Nama</td>
+<td>Andi Prabandaru</td>
+<td rowspan="10" align="center"><img src="p12345.png"width="210" height="313"></td>
+</tr>
+<tr>
+<td>Nim</td>
+<td>A11.2021.13907</td>
+</tr>
+<tr>
+<td>Tempat, Tanggtal Lahir</td>
+<td>Pemalang, 20 Juli 2001</td>
+</tr>
+<tr>
+<td>Fakultas</td>
+<td>Ilmu Komputer</td>
+</tr>
+<tr>
+<td>Jurusan</td>
+<td>Teknik Informatika</td>
+</tr>
+<tr>
+<td>Status</td>
+<td>Mahasiswa</td>
+</tr>
+<tr>
+<td>Alamat</td>
+<td>Desa Jrakah RT/RW 10/02</td>
+</tr>
+</table>
+</body>
+</html>
+
+</tr>
+</tbody></table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="js/bootstrap.min.js"></script>
+<br>
+<style>
+table {
+font-family: 'Times New Roman', Times, serif;
+border-collapse: collapse;
+width: 80%;
+    }
+    
+td, th {
+border: 1px solid black;
+text-align: center;
+padding: 1px;
+    }
+    
+tr:nth-child(even) {
+background-color: #ffffff;
+    }
+
+</style>
+</head>
+
+<body>
+
+<center>
+<h3 class="text-center text-success mt-3">JADWAL KRS</h3>
+
+<table border="9">
+<tr>
+<th>No</th>
+<th>Kode MK</th>
+<th>Kelompok</th>
+<th>Mata Kuliah</th>
+<th>SKS</th>
+<th>Status</th>
+</tr>
+<tr>
+<td>1.</td>
+<td>A11.54101</td>
+<td>A11.4105</td>
+<td>KALKULUS 1</td>
+<td>4</td>
+<td>B</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>A11.54105</td>
+<td>A11.4105</td>
+<td>DASAR PEMROGRAMAN</td>
+<td>4</td>
+<td>B</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>A11.54302</td>
+<td>A11.4105</td>
+<td>MATEMATIKA DISKRIT</td>
+<td>3</td>
+<td>B</td>
+</tr>
+<tr>
+<td>4.</td>  
+<td>A11.54314</td>
+<td>A11.4105</td>
+<td>PEMROGRAMAN BERBASIS WEB</td>
+<td>2</td>
+<td>B</td>
+</tr>
+<tr>
+<td>5.</td>
+<td>A11.54403</td>
+<td>A11.4105</td>
+<td>ORGANISASI DAN ARSITEKTUR KOMPUTER</td>
+<td>3</td>
+<td>B</td>
+</tr>
+<tr>
+<td>6.</td>
+<td>AF201704</td>
+<td>A11.4105</td>
+<td>DASAR DASAR KOMPUTASI</td>
+<td>2</td>
+<td>B</td>
+</tr>
+<tr>
+<td>7.</td>
+<td>U201704</td>
+<td>A11.4117</td>
+<td>PENGANTAR TEKNOLOGI INFORMASI</td>
+<td>2</td>
+<td>B</td>
+</tr>
+</table>
+
+</body>
+</html>
+
+<video width="320" height="240"
+controls>
+<source src="lv.123.mp4"
+</video>
+</html>
