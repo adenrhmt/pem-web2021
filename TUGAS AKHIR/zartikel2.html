@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - Andi's Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        img {
+            width: 800px;
+        }
+    </style>
+</head>
+    <body>
+        <div id="topnav" class="topnav">
+            <a href="zartikel.html">- Back</a>
+        </div>
+        <div class="content">
+            <div class="card">
+                <h1>Kegiatan Pemilihan Ketua Osis Periode 2022-2023</h1>
+                <p><i> 17 Januari 2022 07:30 WIB</i></p>
+                <br>
+                <br>
+                <center>
+                    <img 
+                        src="osis.jpg"
+                        alt="Kegiatan Pemilihan Ketua Osis"
+                    >
+                </center>
+                <br>
+                <br>
+                <center>
+                    <div style="width: 950px; text-align: justify;">
+                        <p>
+                            Pemilihan Ketua osis baru bertujuan untuk dapat mwnggantikan ketua osis yang sebelumnya
+                            karna masa jabatanya sudah habis. 
+                        </p>
+                        <p>
+                            Kampanye demi kampanya di sebarkan dikalian siswa/i SMA Negeri 1, tentunya kampanye yang sehat.
+                            Pengaturan setiap kegiatan yang sangat rapi dikemas ini tentunya dilakukan pengurus OSIS lama yang 
+                            sekaligus memberikan contoh kepada pengurus yang baru.
+                        </p>
+                        <p>
+                            Pengumutan suara dilakukan secara online dengan membuka website pemilihan ketua osis baru dan 
+                            dilaksanakan secara daring atau online karna sekarang masih musim pandemi.
+                        </p>
+                        <p>Sumber: https://andiprabandaru.com/pemilihan-ketua-osis</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Andi's Blog. All Rights Reserved.</h3>
+        </div>
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("topnav");
+            var fixed = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > fixed) {
+                    header.classList.add("fixed");
+                } else {
+                    header.classList.remove("fixed");
+                }
+            }
+        </script>
+    </body>
+</html>
