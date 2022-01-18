@@ -1,0 +1,95 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Andi's Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .greeting {
+            text-align: center;
+            background: linear-gradient(to right, #00ff6a 30%, #00ffb3 100%);
+            color: #ffffff;
+            margin: -20px -20px 20px -20px;
+            padding: 100px 0 100px 0;
+        }
+
+        .greeting a {
+            color: #ffffff;
+        }
+
+        .span-2 {
+            display: inline-block;
+        }
+
+        .span-2 img {
+            width: 433px;
+        }
+    </style>
+</head>
+    <body>
+        <div id="topnav" class="topnav">
+            <a href="#">Home</a>
+            <a href="zartikel.html">Article</a>
+            <a href="pengumuman.html">ABSENSI</a>
+        </div>
+        <div class="content">
+            <div class="greeting">
+                <h1>Hai, Selamat Datang. </h1>
+                <p>Di Absensi Berbasis web SMA 01 </p>
+                <br>
+                <h2>Klik pada 
+                    <a href="zartikel.html">
+                        tautan berikut
+                    </a>
+                !</h2>
+            </div>
+            <span>
+                <a href="zartikel1.html">
+                    <img 
+                        src="Pramuka.jpg"
+                        alt="Kegiatan EkstraKulikuler Pramuka wajib"
+                        style="width: 872px;"
+                    >
+                </a>
+            </span>
+            <span class="span-2">
+                <a href="zartikel2.html">
+                    <img 
+                        src="osis.jpg"
+                        alt="Kegiatan pemilihan ketua osis"
+                    >
+                </a>
+                <br>
+                <a href="zartikel3.html">
+                    <img 
+                        src="jumpa-lama.jpg"
+                        alt="Dies Natalis "
+                    >
+                </a>
+            </span>
+        </div>
+        <div class="footer">
+            <h3>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Andi's Blog. All Rights Reserved.</h3>
+        </div>
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("topnav");
+            var fixed = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > fixed) {
+                    header.classList.add("fixed");
+                } else {
+                    header.classList.remove("fixed");
+                }
+            }
+        </script>
+    </body>
+</html>
