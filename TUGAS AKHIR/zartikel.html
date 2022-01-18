@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - Andi's Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        span {
+            display: inline-block;
+        }
+
+        img {
+            width: 310px;
+            margin-bottom: -20px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+    <body>
+        <div id="topnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="#">Article</a>
+            <a href="pengumuman.html">ABSENSI</a>
+        </div>
+        <div class="content">
+            <div class="card">
+                <span>
+                    <img 
+                        src="Pramuka.jpg"
+                        alt="Kegiatan Ekstrakulikuler Pramuka Wajib"
+                    >
+                </span>
+                <span>
+                    <p><i>14 Januari 2022 14:00 WIB</i></p>
+                    <h2>Kegiatan Ekstrakulikuler Pramuka Wajib </h2>
+                    <p>Pramuka sendiri ekstrakulikuler yang wajib di ikuti oleh setiap siswa mulai dari kelas 1 sampai kelas 2 SMA dimana setiap siswa akan mendapatkan penilaian dari pembina pramuka dan para kakak kelas yang menjadi pembina.</p>
+                    <p>Apa itu Pendidikan kepramukaan?</p>
+                    <a href="zartikel1.html"><p>baca selengkapnya...</p></a>
+                </span>
+            </div>
+            <div class="card">
+                <span>
+                    <img 
+                        src="osis.jpg"
+                        alt="Pemilihan Ketua OSIS baru periode 2022-2023"
+                    >
+                </span>
+                <span>
+                    <p><i>17 Januari 2022 07:30 WIB</i></p>
+                    <h2>Kegiatan Pemilihan ketua OSIS baru periode 2022-2023</h2>
+                    <p>Pemilihan Ketua osis baru bertujuan untuk dapat mwnggantikan ketua osis yang sebelumnya karna masa jabatanya sudah habis</p>
+                    <p> Apakah Kampaye pemilihan ketua osis di lakukan dengan bersih?</p>
+                    <a href="zartikel2.html"><p>baca selengkapnya...</p></a>
+                </span>
+            </div>
+            <div class="card">
+                <span>
+                    <img 
+                        src="jumpa-lama.jpg"
+                        alt="Kegiatan acara diesnatalis ke 10"
+                    >
+                </span>
+                <span>
+                    <p><i>10 Maret 2022 07:00 WIB</i></p>
+                    <h2>Kegiatan acara diesnatalis ke 10</h2>
+                    <p>Kami mengucapkan terima kasih kepada panitia, guru, staff TU, komite sekolah, siswa-siswi, alumni dan seluruh pihak yang selama ini telah turut menjunjung tinggi nama besar sekolah dan memajukan SMA Negeri 1</p>
+                    <p>Apakah kegiatan diesnatalis dilakukan dengan protokol kesehatan?</p>
+                    <a href="zartikel3.html"><p>baca selengkapnya...</p></a>
+                </span>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Andi's Blog. All Rights Reserved.</h3>
+        </div>
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("topnav");
+            var fixed = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > fixed) {
+                    header.classList.add("fixed");
+                } else {
+                    header.classList.remove("fixed");
+                }
+            }
+        </script>
+    </body>
+</html>
