@@ -1,0 +1,59 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Andi's Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        span {
+            display: inline-block;
+        }
+    </style>
+</head>
+    <body>
+        <div id="topnav" class="topnav">
+            <a href="index.html">Home</a>
+            <a href="zartikel.html">Article</a>
+            <a href="#">ABSENSI</a>
+        </div>
+        <div class="content">
+            <center>
+                <div style="background-color: beige;" class="container p-3 my-3 border">
+                    <div>
+                        <h2>ABSENSI SISWA</h2>
+                        <form>
+                            <label for="email">Masukan Email sekolah</label><br/>
+                            <input type="email" name="masukan_email_sekolah" placeholder="Masukan Email sekolah"/>
+                            <hr/>
+                            <label for="message">Absen disini!!</label><br/>
+                            <textarea name="message" placeholder="Tulis nama, kelas, dan nis anda..." rows="4" cols="80"></textarea>
+                            <br/>
+                            <input type="submit" value="Kirim"/>
+                        </form>
+                    </div>
+            </center>
+        </div>
+        <div class="footer" style="position: fixed;  bottom: 0;">
+            <h3>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Andi's Blog. All Rights Reserved.</h3>
+        </div>
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("topnav");
+            var fixed = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > fixed) {
+                    header.classList.add("fixed");
+                } else {
+                    header.classList.remove("fixed");
+                }
+            }
+        </script>
+    </body>
+</html>
