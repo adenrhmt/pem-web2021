@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - Andi's Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        img {
+            width: 800px;
+        }
+    </style>
+</head>
+    <body>
+        <div id="topnav" class="topnav">
+            <a href="zartikel.html">- Back</a>
+        </div>
+        <div class="content">
+            <div class="card">
+                <h1>Kegiatan kegiatan ekstrakulikuler pramuka wajib</h1>
+                <p><i>12 Januari 2022 19:36 WIB</i></p>
+                <br>
+                <br>
+                <center>
+                    <img 
+                        src="Pramuka.jpg"
+                        alt="Kegiatan EkstraKulikuler Pramuka Wajib"
+                    >
+                </center>
+                <br>
+                <br>
+                <center>
+                    <div style="width: 950px; text-align: justify;">
+                        <p>
+                            Pramuka sendiri ekstrakulikuler yang wajib di ikuti oleh setiap siswa mulai dari kelas 1 sampai kelas 
+                            2 SMA dimana setiap siswa akan mendapatkan penilaian dari pembina pramuka dan para kakak kelas yang 
+                            menjadi pembina. 
+                        </p>
+                        <p>
+                            Pendidikan kepramukaan adalah proses pembentukan kepribadian kecakapan hidup, dan akhlak mulia 
+                            pramuka melalui penghayatan dan pengamalan nilai-nilai kepramukaan
+                            (Peraturan Menteri Pendidikan dan kebudayaan No. 63 Tahun 2014 Tentang Pendidikan Kepramukaan)
+                        </p>
+                        <p>
+                            wadah pembinaan bagi anak-anak dan pemuda Indonesia agar menjadi manusia yang berkepribadian 
+                            dan berwatak luhur serta tinggi mental, pantang menyerah, moral budi pekerti, dan kuat keberagamaan, 
+                            sehat jasmani dan rohani serta mempunyai tanggung jawab kemasyarakatan dan kebangsaan.
+                        </p>
+                        <p>Sumber: https://andiprabandaru.com/kegiatan-ekstrakulikuler-pramuka-wajib</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Andi's Blog. All Rights Reserved.</h3>
+        </div>
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("topnav");
+            var fixed = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > fixed) {
+                    header.classList.add("fixed");
+                } else {
+                    header.classList.remove("fixed");
+                }
+            }
+        </script>
+    </body>
+</html>

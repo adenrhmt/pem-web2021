@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - Andi's Blog</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .card {
+            background-color: #f1f1f1;
+            padding: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        img {
+            width: 800px;
+        }
+    </style>
+</head>
+    <body>
+        <div id="topnav" class="topnav">
+            <a href="zartikel.html">- Back</a>
+        </div>
+        <div class="content">
+            <div class="card">
+                <h1>Kegiatan acara Dies natalis SMA 01 ke 10</h1>
+                <p><i>10 Maret 2022 07:00 WIB</i></p>
+                <br>
+                <br>
+                <center>
+                    <img 
+                        src="IMG_20201111_081511.jpg"
+                        alt="Dies Natalis SMA 01"
+                    >
+                </center>
+                <br>
+                <br>
+                <center>
+                    <div style="width: 950px; text-align: justify;">
+                        <p>
+                            Dies Natalis Ke 10 akan di lanksanakan dengan protokol kesehatan
+                        </p>
+                        <p>
+                            Kami mengucapkan terima kasih kepada panitia, guru, staff TU, komite sekolah, siswa-siswi, alumni 
+                            dan seluruh pihak yang selama ini telah turut menjunjung tinggi nama besar sekolah dan memajukan SMA Negeri 1
+                        </p>
+                        <p>
+                            Meski masih dalam masa pandemi covid, kami berharap kreatifitas-kreatifitas dapat tetap muncul 
+                            agar kegiatan SMA Negeri 1 kedepannya dapat tetap dilaksanakan walaupun harus sering melalui sarana daring
+                        </p>
+                        <p>Sumber: https://andiprabandaru.com/dies-natalis-SMA-01</p>
+                    </div>
+                </center>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Copyright &copy; <script>document.write(new Date().getFullYear())</script> by Andi's Blog. All Rights Reserved.</h3>
+        </div>
+
+
+        <script>
+            window.onscroll = function() {myFunction()};
+
+            var header = document.getElementById("topnav");
+            var fixed = header.offsetTop;
+
+            function myFunction() {
+                if (window.pageYOffset > fixed) {
+                    header.classList.add("fixed");
+                } else {
+                    header.classList.remove("fixed");
+                }
+            }
+        </script>
+    </body>
+</html>
